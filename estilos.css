@@ -1,4 +1,4 @@
-body{
+    body{
     /*background-color: burlywood;*/
    /*Asiganando una familia de fuentes para nuestro texto*/
    font-family: 'Courier New', Courier, monospace;
@@ -90,6 +90,12 @@ p{
     text-align: center;
     margin-top: 10rem ;
 }
+
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 @media screen and (max-width:776px) {
     
    
@@ -116,7 +122,7 @@ p{
 }
 .redes-sociales .bubble i {
     color: #ccc;
-    padding: 12px 0;
+    padding: 2rem;
 }
 .redes-sociales .bubble:hover i {
     color: #1f2b40;
